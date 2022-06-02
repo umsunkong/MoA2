@@ -44,16 +44,17 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="40dp"
+            android:layout_marginStart="46dp"
             android:layout_marginTop="40dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/talk"
             android:gravity="center"
-            android:text="현재 거주지가\n어떻게 되세요?"
+            android:lineSpacingExtra="10dp"
+            android:text="아이디를\n설정해주세요"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:fontFamily="@font/talk"
             android:textSize="45dp"
-            android:lineSpacingExtra="10dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
         # app:layout_constraintTop_toBottomOf="@+id/imageView" />

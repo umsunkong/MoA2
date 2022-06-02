@@ -23,10 +23,10 @@
         android:id="@+id/btn_start"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/button_pattern"
-        android:text="시작하기"
         android:letterSpacing="0.5"
+        android:text="시작하기"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -34,7 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_pw" />
+        app:layout_constraintTop_toBottomOf="@+id/et_id" />
 
     <Button
         android:id="@+id/btn_reg"
@@ -65,25 +65,12 @@
         android:paddingStart="20dp"
         android:paddingEnd="10dp"
         android:text="아이디"
+        android:textColor="#4C2A09"
         android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
-
-    <EditText
-        android:id="@+id/et_pw"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/edittext_pattern"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:paddingStart="20dp"
-        android:paddingEnd="10dp"
-        android:text="Name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_id" />
 
     <TextView
         android:id="@+id/textView4"
