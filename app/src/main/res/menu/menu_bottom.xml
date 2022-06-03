@@ -7,19 +7,19 @@
         android:id="@+id/tab1"
         app:showAsAction="ifRoom"
         android:enabled="true"
-        android:src="@drawable/search"
+        android:icon="@drawable/search"
         android:title="search"/>
 
     <item
         android:id="@+id/tab2"
         app:showAsAction="ifRoom"
-        android:src="@drawable/calendar"
+        android:icon="@drawable/calendar"
         android:title="calender"/>
 
     <item
         android:id="@+id/tab3"
         app:showAsAction="ifRoom"
-        android:src="@drawable/contact"
+        android:icon="@drawable/contact"
         android:title="contact"/>
 
 

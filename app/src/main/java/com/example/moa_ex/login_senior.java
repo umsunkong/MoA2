@@ -18,7 +18,7 @@ public class login_senior extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login_senior);
 
         et_id = findViewById(R.id.et_id);
     }
@@ -67,7 +67,7 @@ public class login_senior extends AppCompatActivity {
     public void onClickJoin(View v) {
         //다른 화면(액티비티)로 이동
         //자신 액티비티 객체, 이동할 액티비티 클래스
-        Intent i = new Intent(this, join_senior.class);
+        Intent i = new Intent(this, join_senior1.class);
         i.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY); // 액티비티 스택에 쌓이지 않음
         startActivity( i );
     }

@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/tv_Anum"
+        android:id="@+id/et_Anum"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
@@ -28,10 +28,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_Atell" />
+        app:layout_constraintTop_toBottomOf="@+id/et_Atell" />
 
     <EditText
-        android:id="@+id/tv_Aid"
+        android:id="@+id/et_Aid"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/tv_Aname"
+        android:id="@+id/et_Aname"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
@@ -54,23 +54,23 @@
         android:text="이름"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_Apw" />
+        app:layout_constraintTop_toBottomOf="@+id/et_Apw" />
 
     <EditText
-        android:id="@+id/tv_Apw"
+        android:id="@+id/et_Apw"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
         android:ems="10"
-        android:hint="PASSWORD"
+        android:hint="PW"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_Aid" />
+        app:layout_constraintTop_toBottomOf="@+id/et_Aid" />
 
     <EditText
-        android:id="@+id/tv_Atell"
+        android:id="@+id/et_Atell"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
@@ -81,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_Aname" />
+        app:layout_constraintTop_toBottomOf="@+id/et_Aname" />
 
     <TextView
         android:id="@+id/textView"
@@ -97,14 +97,14 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Spinner
-        android:id="@+id/tv_Arela"
+        android:id="@+id/sp_Arela"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_Anum" />
+        app:layout_constraintTop_toBottomOf="@+id/et_Anum" />
 
     <Button
         android:id="@+id/brn_joinA"
@@ -118,6 +118,6 @@
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_Arela" />
+        app:layout_constraintTop_toBottomOf="@+id/sp_Arela" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
