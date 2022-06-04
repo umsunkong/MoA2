@@ -12,6 +12,7 @@ public class Myapplication {
 
     // 어르신
     public static String user_id = "";
+    public static String S_NAME ="";
 
 
     // 보호자

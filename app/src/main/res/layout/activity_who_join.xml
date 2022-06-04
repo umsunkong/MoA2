@@ -17,12 +17,13 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/btn_joinS"
+        android:id="@+id/btn_Slogjn"
         android:layout_width="245dp"
         android:layout_height="100dp"
         android:layout_marginTop="80dp"
         android:background="@drawable/button_pattern"
         android:letterSpacing="0.5"
+        android:onClick="onClickButton1"
         android:text="사용자"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -32,18 +33,19 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/btn_joinA"
+        android:id="@+id/btn_Alogin"
         android:layout_width="245dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/button_pattern"
         android:letterSpacing="0.5"
+        android:onClick="onClickButton2"
         android:text="관리자"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_joinS" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Slogjn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

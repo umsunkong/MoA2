@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -13,6 +14,7 @@ import org.json.JSONObject;
 
 public class login_senior extends AppCompatActivity {
 
+    Button btn_start, btn_join;
     EditText et_id;
 
     @Override
@@ -21,6 +23,19 @@ public class login_senior extends AppCompatActivity {
         setContentView(R.layout.activity_login_senior);
 
         et_id = findViewById(R.id.et_id);
+        btn_start = findViewById(R.id.btn_start);
+        btn_join = findViewById(R.id.btn_join);
+
+
+        btn_join.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(login_senior.this, join_senior_name.class);
+                startActivity(i);
+
+            }
+        });
+
     }
 
     public void onResponse(String response) {
@@ -50,7 +65,7 @@ public class login_senior extends AppCompatActivity {
         }
     }
 
-    public void onButtonLogin(View v){
+    public void onButtonLogin1(View v){
         String user_id = et_id.getText().toString();
         // 로그인 인증 절차
         // 1. 입력받은 id, pw를 서버에 전송
@@ -62,14 +77,6 @@ public class login_senior extends AppCompatActivity {
         Myapplication.user_id = user_id;
 
         setContentView(R.layout.activity_talk);
-    }
-
-    public void onClickJoin(View v) {
-        //다른 화면(액티비티)로 이동
-        //자신 액티비티 객체, 이동할 액티비티 클래스
-        Intent i = new Intent(this, join_senior_name.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY); // 액티비티 스택에 쌓이지 않음
-        startActivity( i );
     }
 
 }
