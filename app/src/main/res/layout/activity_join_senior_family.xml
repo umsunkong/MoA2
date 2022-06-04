@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".join_senior">
+    tools:context=".join_senior_family">
 
 
     <ImageView
@@ -38,7 +38,7 @@
             app:srcCompat="@drawable/tb1" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_Sname"
             android:layout_width="wrap_content"
             android:layout_height="162dp"
             android:layout_alignParentStart="true"

@@ -18,7 +18,7 @@ public class login_admin extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login_admin);
 
         et_id = findViewById(R.id.et_id);
         et_pw = findViewById(R.id.et_pw);
@@ -31,15 +31,15 @@ public class login_admin extends AppCompatActivity {
 
             if (success) {//로그인 성공시
 
-                String user_id = jsonObject.getString("user_id");
-                String user_pw = jsonObject.getString("user_pw");
+                String admin_id = jsonObject.getString("admin_id");
+                String pw = jsonObject.getString("pw");
 
-                Toast.makeText(getApplicationContext(), String.format("%s님 환영합니다.", user_id), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), String.format("%s님 환영합니다.", admin_id), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(login_admin.this, user_search.class);
                 startActivity(intent);
 
-                intent.putExtra("UserId", user_id);
-                intent.putExtra("UserPw", user_pw);
+                intent.putExtra("UserId", admin_id);
+                intent.putExtra("UserPw", pw);
 
                 startActivity(intent);
 
@@ -54,19 +54,15 @@ public class login_admin extends AppCompatActivity {
     }
 
     public void onButtonLogin(View v){
-        String user_id = et_id.getText().toString();
-        String user_pw = et_pw.getText().toString();
-        // 로그인 인증 절차
-        // 1. 입력받은 id, pw를 서버에 전송
-        // 2. 서버에서 ok, fail 정보를 반환받음
-        // 3. OK 이면, isLogin = true, id와 pw를 저장
-        // 4. FAIL 이면, 다시 로그인하도록 알려줌
-        // 로그인 성공이면,
-        Myapplication.isLogin = true;
-        Myapplication.user_id = user_id;
-        Myapplication.user_pw = user_pw;
+        String admin_id = et_id.getText().toString();
+        String pw = et_pw.getText().toString();
 
-        finish();
+        Myapplication.isLogin = true;
+        Myapplication.admin_id = admin_id;
+        Myapplication.pw = pw;
+
+        setContentView(R.layout.activity_user_search);
+
     }
 
     public void onClickJoin(View v) {

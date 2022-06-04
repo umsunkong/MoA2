@@ -14,7 +14,25 @@
         android:theme="@style/Theme.MoA_ex"
         tools:targetApi="31">
         <activity
-            android:name=".user_search"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".join_senior_f_phone"
+            android:exported="false" />
+        <activity
+            android:name=".join_senior_f_name"
+            android:exported="false" />
+        <activity
+            android:name=".join_senior_family"
+            android:exported="false" />
+        <activity
+            android:name=".join_senior_phone"
+            android:exported="false" />
+        <activity
+            android:name=".join_senior_id"
+            android:exported="false" />
+        <activity
+            android:name=".join_senior_birth"
             android:exported="false" />
         <activity
             android:name=".login_senior"
@@ -26,26 +44,11 @@
             android:name=".talk"
             android:exported="false" />
         <activity
-            android:name=".search"
-            android:exported="false" />
-        <activity
-            android:name=".join_senior"
-            android:exported="false" />
-        <activity
             android:name=".join_admin"
             android:exported="false" />
         <activity
             android:name=".who_join"
             android:exported="false" />
-        <activity
-            android:name=".login"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

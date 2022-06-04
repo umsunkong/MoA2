@@ -61,13 +61,13 @@ public class login_senior extends AppCompatActivity {
         Myapplication.isLogin = true;
         Myapplication.user_id = user_id;
 
-        finish();
+        setContentView(R.layout.activity_talk);
     }
 
     public void onClickJoin(View v) {
         //다른 화면(액티비티)로 이동
         //자신 액티비티 객체, 이동할 액티비티 클래스
-        Intent i = new Intent(this, join_senior1.class);
+        Intent i = new Intent(this, join_senior_name.class);
         i.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY); // 액티비티 스택에 쌓이지 않음
         startActivity( i );
     }
