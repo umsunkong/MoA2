@@ -75,83 +75,96 @@
             android:layout_marginEnd="-1dp"
             app:srcCompat="@drawable/tb3" />
 
-        <LinearLayout
+        <RadioGroup
+            android:id="@+id/R_group"
             android:layout_width="wrap_content"
-            android:layout_height="81dp"
+            android:layout_height="71dp"
+            android:layout_alignBottom="@+id/imageView7"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="50dp"
-            android:layout_marginBottom="25dp"
-            android:orientation="vertical">
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="20dp">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_width="wrap_content"
+                android:layout_height="81dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
 
-                <CheckBox
-                    android:id="@+id/chk_f1"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/talk"
-                    android:text="배우자"
-                    android:textSize="25sp" />
+                    android:orientation="horizontal">
 
-                <CheckBox
-                    android:id="@+id/chk_f2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/talk"
-                    android:text="자녀"
-                    android:textSize="25sp" />
+                    <RadioButton
+                        android:id="@+id/r_btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="배우자"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
 
-                <CheckBox
-                    android:id="@+id/chk_f3"
-                    android:layout_width="wrap_content"
+                    <RadioButton
+                        android:id="@+id/r_btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="형제/자매 "
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="자녀"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/talk"
-                    android:text="형제/자매"
-                    android:textSize="25sp" />
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="부모"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="기타"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="없다."
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
 
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <CheckBox
-                    android:id="@+id/chk_f4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/talk"
-                    android:text="부모"
-                    android:textSize="25sp" />
-
-                <CheckBox
-                    android:id="@+id/chk_f5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/talk"
-                    android:text="기타"
-                    android:textSize="25sp" />
-
-                <CheckBox
-                    android:id="@+id/chk_f6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/talk"
-                    android:text="없다"
-                    android:textSize="25sp" />
-            </LinearLayout>
-
-        </LinearLayout>
+        </RadioGroup>
 
     </RelativeLayout>
 

@@ -19,10 +19,10 @@
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior6.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior7.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_birth.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_family.xml" value="0.3515625" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_family.xml" value="0.25" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_fname.xml" value="0.3515625" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_fphone.xml" value="0.3515625" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_id.xml" value="0.3515625" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_fphone.xml" value="0.33" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_id.xml" value="0.25" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_name.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_join_senior_phone.xml" value="0.3515625" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_login.xml" value="0.33" />
@@ -31,7 +31,7 @@
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_main2.xml" value="0.12447916666666667" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_search.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_talk.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_talk.xml" value="0.33" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_user_search.xml" value="0.1" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/activity_who_join.xml" value="0.33" />
         <entry key="..\:/Users/smhrd/AndroidStudioProjects/MoA_ex/app/src/main/res/layout/fragment_calender.xml" value="0.1" />

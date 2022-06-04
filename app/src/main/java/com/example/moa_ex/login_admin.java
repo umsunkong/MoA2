@@ -15,6 +15,7 @@ public class login_admin extends AppCompatActivity {
 
     EditText et_id, et_pw;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,10 @@ public class login_admin extends AppCompatActivity {
 
         et_id = findViewById(R.id.et_id);
         et_pw = findViewById(R.id.et_pw);
+
+
+
+
     }
 
     public void onResponse(String response) {
@@ -35,7 +40,7 @@ public class login_admin extends AppCompatActivity {
                 String pw = jsonObject.getString("pw");
 
                 Toast.makeText(getApplicationContext(), String.format("%s님 환영합니다.", admin_id), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(login_admin.this, user_search.class);
+                Intent intent = new Intent(login_admin.this, search.class);
                 startActivity(intent);
 
                 intent.putExtra("UserId", admin_id);

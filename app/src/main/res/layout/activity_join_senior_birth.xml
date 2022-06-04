@@ -76,7 +76,7 @@
             tools:layout_editor_absoluteY="376dp" />
 
         <EditText
-            android:id="@+id/ed_Sname"
+            android:id="@+id/ed_Pphone"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -85,10 +85,10 @@
             android:layout_marginEnd="50dp"
             android:ems="10"
             android:hint="여기에 입력해주세요."
-            android:textAlignment="center"
-
             android:inputType="textPersonName"
+
             android:minHeight="48dp"
+            android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
